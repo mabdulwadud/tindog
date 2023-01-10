@@ -43,7 +43,7 @@ body{
 }
 
 
-i:hover {
+.feature-icon:hover {
     color: #9198e5;
     transform: scale(1.5);
 
