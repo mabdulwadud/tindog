@@ -1,10 +1,21 @@
+
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@900&display=swap');
 
 
-
 body{
+    overflow-x: hidden;
+    margin: 0;
+    font-family: 'Montserrat';
 
 }
+.white ::selection {
+    background: #fff; /* WebKit/Blink Browsers */
+    color: #111;
+  }
+.white ::-moz-selection {
+    background: #fff; /* Gecko Browsers */
+    color: #111;
+  }
 
 .container-fluid{
     padding: 3% 15%;
@@ -12,14 +23,57 @@ body{
 
 .navbar-brand{
     font-family: 'Ubuntu';
-    font-size: 1.5rem;
+    font-size: 2.5rem;
+    font-weight: bold;
 
+}
+
+
+#features{
+    margin-top: 10rem;
+}
+
+.feature-desc{
+    color: #8f8f8f;
+}
+
+.fa-solid{
+    color: #db736b;
+    
+}
+
+
+i:hover {
+    color: #9198e5;
+    transform: scale(1.5);
+
+}
+
+i {
+    transition: all 300ms;
+}
+
+
+.nav-item{
+    font-size: 1.2rem;
+    font-family: Montserrat;
+    padding: 0 1rem;
 }
 
 h1{
     font-family: 'Montserrat';
-    font-size: 3rem;
+    font-weight: 900;
+    /* font-size: 3.5rem; */
+    color: #FFFFFF;
     line-height: 1.5;
+
+}
+
+.feature-title{
+    font-family: 'Montserrat';
+    font-weight: 900;
+    /* font-size: 1.5rem; */
+    color: #111;
 }
 
 #dropdown-items{
@@ -27,7 +81,20 @@ h1{
 }
 
 #title{
-    background-color: #ff4c68;
+    /* background-color: #ff4c68; */
+    background: radial-gradient(#e66465, #9198e5);
 
 }
 
+.fa-brands {
+    padding-right: .5rem;
+}
+
+.download-button{
+    margin: 5% 3% 5% 0;
+}
+
+.title-img{
+    width: 70%;
+    transform: rotate(25deg);
+}
